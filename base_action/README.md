@@ -1,4 +1,4 @@
-# Morrison_sac
+# Sean_sac
 
 # Reinforcement Learning with Soft-Actor Critic
 
