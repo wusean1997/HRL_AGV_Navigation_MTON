@@ -28,6 +28,5 @@ LPP is trained to navigate from the current location to the sub-goal from the AS
 </div>
 
 # MTON Performance
-<div style="text-align: center">
 https://user-images.githubusercontent.com/99716048/168000222-64b6269c-1bd6-4b92-9ef6-36b177af919d.mp4
-</div>
+
