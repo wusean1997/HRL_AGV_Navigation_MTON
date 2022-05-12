@@ -1,0 +1,6 @@
+<launch>
+  <arg name="stage" default="1"/>
+  <param name="stage_number"  value="$(arg stage)"/>
+  <node pkg="base_action" type="main.py" name="main" output="screen" />
+  <node pkg="base_action"  type="moving_obstacle.py" name="moving_obstacle" output="screen" />
+</launch>

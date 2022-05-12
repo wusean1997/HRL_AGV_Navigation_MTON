@@ -1,0 +1,9 @@
+<launch>
+  <arg name="stage" default="1"/>
+  <param name="stage_number"  value="$(arg stage)"/>
+
+  <node pkg="area_dqn"  type="combination_obstacle_1.py" name="combination_obstacle_1" output="screen" />
+  <node pkg="area_dqn"  type="combination_obstacle_2.py" name="combination_obstacle_2" output="screen" />
+  <node pkg="area_dqn"  type="combination_obstacle_3.py" name="combination_obstacle_3" output="screen" />
+  <node pkg="area_dqn" type="main.py" name="main" output="screen" />
+</launch>
