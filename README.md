@@ -2,9 +2,9 @@
 A navigation algorithm for Deep Reinforcement Learning developed using the Hierarchical framework.
 
 # MTON Framework
-<div style="text-align: center">
+<center>
 <img src="https://user-images.githubusercontent.com/99716048/167999878-f1f41c1e-9cce-47dc-9e83-ff74dc5c0e2b.png" width=750 alt="MTON"/>
-</div>
+</center>
 
 ## OSM
 The OSM take the statistics of a short immediate history to figure the most  probable path. The dynamic environment navigation model of our HRL framework superimposes the grid map in the environment in the past period of time according to the weight difference before and after the time axis and the fused grayscale image is used as the state input of the upper model. The output is taken to weight the grid for the ASS.
